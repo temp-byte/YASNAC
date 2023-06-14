@@ -1,21 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="run_test_button">Uruchom sprawdzanie SafetyNet</string>
+    <string name="app_name_short" translatable="false">YASNAC</string>
+    <string name="app_name" translatable="false">Yet Another SafetyNet Attestation Checker</string>
+    <string name="run_test_button">Sprawdź zgodność SafetyNet</string>
     <string name="learn_more_button">Dowiedz się więcej</string>
-    <string name="result">Rezultat</string>
-    <string name="pass">Powodzenie</string>
-    <string name="fail">Niepowodzenie</string>
-    <string name="please_wait">Proszę czekać…</string>
+    <string name="result">Wynik testu</string>
+    <string name="pass">W porządku</string>
+    <string name="fail">Błąd</string>
+    <string name="please_wait">Czekaj…</string>
     <string name="something_went_wrong">Coś poszło nie tak</string>
     <string name="api_error">Błąd API Usług Google Play</string>
     <string name="device">Urządzenie</string>
     <string name="model">Model</string>
     <string name="android_version">Wersja Androida</string>
-    <string name="security_patch">Poziom poprawek zabezpieczeń</string>
+    <string name="security_patch">Aktualizacja zabezpieczeń Androida</string>
     <string name="view_json">Pokaż JSON</string>
-    <string name="basic">BASIC</string>
-    <string name="hardware_backed">HARDWARE_BACKED</string>
-    <string name="evaluation_type">Typ ewaluacji</string>
-    <string name="cts_profile_match">Zgodność z profilem CTS</string>
     <string name="play_services_version">Wersja Usług Google Play</string>
+
+    <string name="basic_integrity">Basic integrity</string>
+    <string name="cts_profile_match">CTS profile match</string>
+    <string name="evaluation_type">Typ weryfikacji</string>
+    <string name="hardware_backed">WSPIERANA_SPRZĘTOWO</string>
+    <string name="basic">PODSTAWOWA</string>
+    <string name="timestamp">Czas testu</string>
+    <string name="apk_digest">Apk digest</string>
+    <string name="advice">Porada</string>
+
+    <string name="error_gms_missing">Brak Usług Google Play na urządzeniu.</string>
+    <string name="error_gms_updating">Trwa aktualizacja Usług Google Play.</string>
+    <string name="error_gms_version_update_required">Nieaktualna wersja Usług Google Play.</string>
+    <string name="error_gms_disabled">Wyłączono Usługi Google Play na urządzeniu.</string>
+    <string name="error_gms_invalid">Nieoryginalna wersja Usług Google Play na urządzeniu.</string>
+    <string name="error_gms_unknown">Nieznany wynik %1$s.</string>
+    <string name="error_gms_provider">Błąd instalacji dostawcy Usług Google Play.</string>
+    <string name="error_statement_nonce">Nonce does not match.</string>
+    <string name="error_statement_timeout">Attestation response time out of allowable range. Please try again later or check if device time is set correctly.</string>
+    <string name="error_statement_package_name">Application id does not match.</string>
+    <string name="error_statement_certificate">Apk certificate does not match.</string>
+    <string name="error_verify_invalid_json">JWS format is not valid.</string>
+    <string name="error_verify_null_cert">JWS signature is invalid.</string>
+    <string name="error_verify_invalid_cert">JWS signature verification exception.</string>
+    <string name="error_verify_hostname">JWS signature certificate error.</string>
+
 </resources>
